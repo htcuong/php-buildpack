@@ -626,7 +626,7 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.19
-  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php7-7.1.19-linux-x64-cflinuxfs3-20ac69b3.tgz
+  uri: http://hcuong-cdn.dev02.ssk.cfm.yahoo.co.jp/php7-7.1.19-linux-x64-cflinuxfs3-20ac69b3.tgz
   sha256: 20ac69b30325f46628574282f032f816c59ab5882d484ef80bb778959b5298c7
   cf_stacks:
   - cflinuxfs3
@@ -692,6 +692,7 @@ dependencies:
   - yaml
   - zip
   - zlib
+  - yahoo_ysecure
 - name: php
   version: 7.1.20
   uri: https://buildpacks.cloudfoundry.org/dependencies/php/php7-7.1.20-linux-x64-cflinuxfs2-08554c0c.tgz
