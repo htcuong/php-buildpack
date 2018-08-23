@@ -695,7 +695,8 @@ dependencies:
   - yahoo_ysecure
 - name: php
   version: 7.1.20
-  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php7-7.1.20-linux-x64-cflinuxfs2-08554c0c.tgz
+  uri: https://hcuong-cdn.dev02.ssk.cfm.yahoo.co.jp/php7-7.1.19-linux-x64-cflinuxfs3-20ac69b3.tgz
+#  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php7-7.1.20-linux-x64-cflinuxfs2-08554c0c.tgz
   sha256: 08554c0cf6a7bd872a76966fc221fa7da6ace37a94192b07cccd171ff726a573
   cf_stacks:
   - cflinuxfs2
